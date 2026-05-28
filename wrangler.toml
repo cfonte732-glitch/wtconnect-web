@@ -1,0 +1,8 @@
+# Cloudflare Pages — sortie next-on-pages (ne pas publier .next brut)
+name = "wtconnect-web"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+pages_build_output_dir = ".vercel/output/static"
+
+# Secrets / NEXT_PUBLIC_* : uniquement dans le dashboard Cloudflare Pages (pas ici)
